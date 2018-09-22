@@ -36,3 +36,5 @@ fields:
   - type: file
     name: hintergrund
     label: Hintergrund
+pages:
+- content/Über-uns.md
