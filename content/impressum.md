@@ -16,7 +16,7 @@ Oberlippach 1
 84095 Furth
 
 Tel. +49 (0)8704-928202  
-Fax +49 (0)8704-928203 
+Fax +49 (0)8704-928203
 
 [info@lippacherhof.de](mailto:info@lippacherhof.de)  
 [www.lippacherhof.de](https://www.lippacherhof.de)
@@ -30,7 +30,7 @@ Amtsgericht Landshut
 
 Das Unternehmen nimmt nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil.
 
-Fotografie
+**Fotografie**
 
 Pia Leopold Fotografie - instragramm / facebook
 
