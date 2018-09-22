@@ -1,0 +1,24 @@
+<div class="kontform">
+  <script type="text/javascript">
+    function recaptcha_callback() {
+      $('#kformbutton').prop("disabled", false).removeClass('disabled');
+    }
+  </script>
+  <form class="ui form" id="kform" action="https://formcarry.com/s/kDIKHZbnFUA" accept-charset="UTF-8" method="POST">
+    <div class="two fields">
+      <div class="field">
+        <input type="text" id="inputname" name="Name" placeholder="Name Vorname">
+      </div>
+      <div class="field">
+        <input type="text" id="inputemail" name="email" placeholder="Email">
+      </div>
+    </div>
+    <div class="field">
+      <textarea id="inputmessage" name="Nachricht" placeholder="Ihre Nachricht"></textarea>
+    </div>
+    <input type="hidden" name="_gotcha">
+    <div class="g-recaptcha" data-callback="recaptcha_callback" data-sitekey="6LfDyG8UAAAAAMMCx0N8m617qY_ZRCum9jM2r96f"></div>
+    <button id="kformbutton" class="ui button disabled" type="submit">Anfrage senden</button>
+    <div class="ui error message"></div>
+  </form>
+</div>

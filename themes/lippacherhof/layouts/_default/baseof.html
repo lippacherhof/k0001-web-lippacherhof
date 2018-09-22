@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default " en " }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/semantic.min.css">
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}/styles.css">
+  <link rel="shortcut icon" href="{{ $.Site.BaseURL }}/favicon.png" type="image/x-icon"> {{ partial "meta.html" . }}
+  <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/49084558-7f89-4650-abc9-d0902b866438.css" />
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/jquery.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+</head>
+
+<body>
+  {{ partial "header.html" . }}
+  <main role="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/semantic.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $(window).scroll(function () {
+        var pos = window.pageYOffset || document.documentElement.scrollTop;
+        if (pos === 0) {
+          $('header').removeClass('scrolled');
+          $('.logo').removeClass('scrolled');
+        }
+        if (pos > 0 && !$('header').hasClass('scrolled')) {
+          $('header').addClass('scrolled');
+          $('.logo').addClass('scrolled');
+        }
+      });
+      $('.shape').click(function () {
+        $(this).shape('flip back');
+      });
+      $('.ui.embed').embed();
+      $('#mobilemenutoggle').click(() => {
+        if ($('#mobilenav #headermenu').hasClass('vis')) {
+          $('#mobilenav #headermenu').removeClass('vis');
+          $('#mobilemenutoggle i').removeClass('chevron up');
+          $('#mobilemenutoggle i').addClass('bars');
+        } else {
+          $('#mobilenav #headermenu').addClass('vis');
+          $('#mobilemenutoggle i').addClass('chevron up');
+          $('#mobilemenutoggle i').removeClass('bars');
+        }
+      });
+      $('#kform')
+        .form({
+          fields: {
+            name: {
+              identifier: 'name',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Bitte geben Sie Ihren Namen an'
+                }
+              ]
+            },
+            email: {
+              identifier: 'email',
+              rules: [
+                {
+                  type: 'email',
+                  prompt: 'Bitte geben Sie eine gültige Emailadresse an.'
+                }
+              ]
+            },
+            message: {
+              identifier: 'message',
+              rules: [
+                {
+                  type: 'minLength[5]',
+                  prompt: 'Bitte geben Sie eine Nachricht an.'
+                }
+              ]
+            }
+          }
+        });
+    });
+  </script>
+</body>
+
+</html>

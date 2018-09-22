@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="sub kontakt">
+  <div class="ui container fluid" style="background:url({{partial "imgUrl" (dict "img" .Params.hintergrund "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat #f6f6f6; background-size:cover">
+    <div class="ui two column stackable grid mobile reversed">
+      <div class="ui column map">
+        <div class="ui 4:3 embed" data-url="{{.Params.karte}}" data-icon="zoom in">
+        </div>
+      </div>
+      <div class="ui column content" id="cont">
+        <h1>{{.Title}}</h1>
+        <ul class="kdata">
+          {{ range .Params.kontaktdaten }}
+          <li>
+            <i class="{{.icon}} icon"></i>
+            <div>{{.content | safeHTML}}</div>
+          </li>
+          {{end}}
+        </ul>
+        <div class="txt">
+          {{.Params.content | safeHTML}}
+        </div>
+        {{partial "kontform"}}
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}

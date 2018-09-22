@@ -1,0 +1,137 @@
+---
+label: Home
+hide_body: true
+is_partial: false
+fields:
+- type: field_group
+  name: teaser_oben
+  label: Teaser oben
+  fields:
+  - type: file
+    name: bild
+    label: Bild
+  - type: file
+    name: logo
+    label: Logo
+- type: field_group
+  name: intro
+  label: Intro
+  fields:
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: hintergrund
+    label: Hintergrund
+  - type: text
+    name: link_beschriftung
+    label: Link Beschriftung
+  - type: select
+    name: link
+    config:
+      source:
+        type: pages
+    label: Link
+- type: field_group
+  name: mediation_und_training
+  label: Mediation und Training
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: field_group_list
+    name: bereiche
+    label: Bereiche
+    fields:
+    - type: file
+      name: icon
+      label: Icon
+      description: optional
+    - type: textarea
+      name: content
+      label: Content
+      description: Kursiv = Sonderschriftart
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
+    - type: select
+      name: hintergrundfarbe
+      config:
+        source:
+          type: simple
+        options:
+        - rose hell
+        - rose
+        - rose dunkel
+        - grau
+      label: Hintergrundfarbe
+    - type: file
+      name: icon_ruckseite
+      label: Icon Rückseite
+    - type: textarea
+      name: content_ruckseite
+      label: Content Rückseite
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
+    - type: select
+      name: hintergrundfarbe_ruckseite
+      config:
+        source:
+          type: simple
+        options:
+        - rose
+        - rose hell
+        - rose dunkel
+        - grau
+      label: Hintergrundfarbe Rückseite
+- type: field_group
+  name: kontakt
+  label: Kontakt
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: file
+    name: hintergrundbild
+    label: Hintergrundbild
+  - type: field_group_list
+    name: kontaktdaten
+    label: Kontaktdaten
+    fields:
+    - type: select
+      name: icon
+      config:
+        source:
+          type: simple
+        options:
+        - envelope outline
+        - phone
+        - mobile alternate
+        - map marker alternate
+      label: Icon
+    - type: textarea
+      name: content
+      label: Content
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
+- type: text
+  name: seo_description
+  label: SEO Description
+pages:
+- content/_index.md

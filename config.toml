@@ -1,0 +1,4 @@
+baseURL = "https://lippacherhof.github.io"
+languageCode = "de-de"
+theme = "lippacherhof "
+title = "Lippacher Hof"
