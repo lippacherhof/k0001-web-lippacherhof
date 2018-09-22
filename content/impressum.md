@@ -10,21 +10,30 @@ untertitel_header = ""
 weight = 2
 
 +++
-Beate Maria Bauer
+Grundstücksverwaltung Oberlippach GmbH & Co. KG  
+Geschäftsführer: Georg Hintermaier  
+Oberlippach 1  
+84095 Furth
 
-Matthias-Kraus-Gasse 17
+Tel. +49 (0)8704-928202  
+Fax +49 (0)8704-928203 
 
-93309 Kelheim
+[info@lippacherhof.de](mailto:info@lippacherhof.de)  
+[www.lippacherhof.de](https://www.lippacherhof.de)
 
-Tel. 0 159 06 04 96 92
+Umsatzsteuer-Identifikationsnummer  
+gemäß § 27 a Umsatzsteuergesetz:
 
-[bmb@beatemariabauer.de  
-](mailto:bmb@beatemariabauer.de)www.beatemariabauer.de
+SteuerNummer 132/162/58554
 
-Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:  
-Steuernummer: 126/214/21210  
-Amtsgericht Kelheim
+Amtsgericht Landshut
 
 Das Unternehmen nimmt nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil.
 
-Design / Konzept: [elvira.beck | design](http://elvirabeck-design.de)
+Fotografie
+
+Pia Leopold Fotografie - instragramm / facebook
+
+Webdesign / Konzept
+
+[elvira.beck | design](http://elvirabeck-design.de)
