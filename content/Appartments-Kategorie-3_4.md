@@ -27,5 +27,5 @@ beschreibung = "<p>53 qm, separates Schlafzimmer mit Doppelbett, Küche, Esstis
 bild = "/uploads/2018/09/22/Kategorie5_0267.jpeg"
 link = "Appartments-Kategorie-5.md"
 linkbeschriftung = "weiter"
-titel = "Kategorie 5"s
+titel = "Kategorie 5"
 +++
