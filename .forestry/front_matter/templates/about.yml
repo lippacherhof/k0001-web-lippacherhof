@@ -1,0 +1,38 @@
+---
+label: About
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  name: headerbild
+  label: Headerbild
+- type: textarea
+  name: content_links
+  label: Content links
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: bild_rechts
+  label: Bild rechts
+- type: textarea
+  name: motto
+  label: Motto
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: field_group
+  name: galerie
+  label: Galerie
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: image_gallery
+    name: bilder
+    label: Bilder
+  - type: file
+    name: hintergrund
+    label: Hintergrund
