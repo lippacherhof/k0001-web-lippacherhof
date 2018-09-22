@@ -2,6 +2,7 @@
 date = "2018-09-22T09:29:07+00:00"
 draft = true
 title = "Appartments Kategorie 3+4"
+
 [weitere_kategorien]
 hintergrund = "/uploads/2018/09/22/hintergrundbild_weitereapartments.jpg"
 titel = "Das könnte Ihnen auch gefallen ..."
