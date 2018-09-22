@@ -7,16 +7,18 @@ teaser_oben:
   bild: "/uploads/2018/08/11/053cut.jpg"
   logo: "/uploads/2018/08/11/logo.png"
 intro:
-  content: "<p><strong>Am Wendepunkt angelangt?</strong> Ich begleite Menschen, Teams
-    und Unternehmen, die Zukunft neu und selbst gestalten möchten. Sehr gerne referiere
-    hierzu gerne über die Sinnhaftigkeit eines erfolgreichen Konfliktmanagements im
-    gesamten ostbayerischen Raum. Ich unterrichte Tanz im ostbayerischen Raum (Landshut,
-    Regensburg, Passau, Kelheim, Ingolstadt).</p>"
+  content: "<p>Herzlich Willkommen in Oberlippach<br>Das Appartementhaus Lippacher
+    Hof hat sich in den letzten Jahren zu einem Stück Heimat für seine Gäste entwickelt.
+    Die Ruhe und das gepflegte Umfeld in mitten grüner Natur wissen unsere Gäste sehr
+    zu schätzen. Ob Sie beruflich unterwegs sind oder nur ein paar Tage ausspannen
+    wollen, bei uns sind Sie richtig. In Oberlippach hat man nicht nur den schönen
+    Golfplatz vor der Haustür, auch Städtereisende und Radfahrer kommen in unserer
+    Region und darüber hinaus nicht zu kurz.</p>"
   hintergrund: "/uploads/2018/08/13/strand.jpg"
   link_bescchriftung: ''
   link: uber-mich.md
   link_beschriftung: Mehr lesen
-  hintergrunnd: ''
+  hintergrunnd: "/uploads/2018/09/22/slide4.jpg"
 mediation_und_training:
   titel: Mediation & Training
   content: "<p>Wieder in die Gegenwart finden, sich neuen Impulsen hingeben, sich
@@ -73,8 +75,13 @@ kontakt:
   karte: ''
   button_beschriftung: ''
   button_link: ''
-slides: []
-seitentitel: ''
+slides:
+- "/uploads/2018/09/22/slide1.jpg"
+- "/uploads/2018/09/22/slide2.jpg"
+- "/uploads/2018/09/22/slide3.jpg"
+- "/uploads/2018/09/22/slide4.jpg"
+- "/uploads/2018/09/22/slide5.jpg"
+seitentitel: Lippacher Hof
 appartments:
   titel: ''
   liste: []
