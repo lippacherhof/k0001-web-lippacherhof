@@ -11,12 +11,6 @@ title = "Appartments Kategorie 1"
 hintergrund = "/uploads/2018/09/22/hintergrundbild_weitereapartments.jpg"
 titel = "Das könnte Ihnen auch gefallen ..."
 [[weitere_kategorien.kategorien]]
-beschreibung = "<p>20 qm, Ausstattung: Einzelbett, Küche, Esstisch, Fernseher, Bad mit Dusche und WC</p>"
-bild = "/uploads/2018/09/22/appartment1.jpeg"
-link = "Appartments-Kategorie-1.md"
-linkbeschriftung = "weiterr"
-titel = "Kategorie 1"
-[[weitere_kategorien.kategorien]]
 beschreibung = "<p>30 – 34 qm, Doppelbett, Küche, gemütlicher Fernsehsessel, Fernseher, Bad mit Dusche und WC</p>"
 bild = "/uploads/2018/09/22/Kategorie1_0202.jpeg"
 link = "Appartments-Kategorie-2.md"
