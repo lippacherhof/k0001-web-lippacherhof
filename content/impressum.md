@@ -10,7 +10,7 @@ untertitel_header = ""
 weight = 2
 
 +++
-Grundstücksverwaltung Oberlippach GmbH & Co. KG  
+**Grundstücksverwaltung Oberlippach** GmbH & Co. KG  
 Geschäftsführer: Georg Hintermaier  
 Oberlippach 1  
 84095 Furth
