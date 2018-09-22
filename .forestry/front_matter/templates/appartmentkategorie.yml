@@ -66,3 +66,5 @@ fields:
           type: pages
           section: pages
       label: Link
+pages:
+- content/Appartments-Kategorie-1.md
