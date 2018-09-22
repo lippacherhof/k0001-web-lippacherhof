@@ -66,6 +66,9 @@ fields:
           type: pages
           section: pages
       label: Link
+- type: text
+  name: seo_description
+  label: SEO Description
 pages:
 - content/Appartments-Kategorie-5.md
 - content/Appartments-Kategorie-3_4.md
