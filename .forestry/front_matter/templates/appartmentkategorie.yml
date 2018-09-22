@@ -39,3 +39,30 @@ fields:
   - type: file
     name: hintergrund
     label: Hintergrund
+  - type: field_group_list
+    name: kategorien
+    label: Kategorien
+    fields:
+    - type: text
+      name: titel
+      label: Titel
+    - type: textarea
+      name: beschreibung
+      label: Beschreibung
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
+    - type: file
+      name: bild
+      label: Bild
+    - type: text
+      name: linkbeschriftung
+      label: Linkbeschriftung
+    - type: select
+      name: link
+      config:
+        source:
+          type: pages
+          section: pages
+      label: Link
