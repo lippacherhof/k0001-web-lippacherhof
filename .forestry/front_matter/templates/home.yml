@@ -21,8 +21,8 @@ fields:
       schema:
         format: html-blocks
   - type: file
-    name: hintergrunnd
-    label: Hintergrunnd
+    name: hintergrund
+    label: Hintergrund
 - type: field_group
   name: appartments
   label: Appartments
