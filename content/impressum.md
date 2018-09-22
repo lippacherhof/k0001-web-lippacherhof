@@ -34,6 +34,6 @@ Das Unternehmen nimmt nicht an Streitbeilegungsverfahren vor einer Verbrauchersc
 
 Pia Leopold Fotografie - instragramm / facebook
 
-Webdesign / Konzept
+**Webdesign / Konzept**
 
 [elvira.beck | design](http://elvirabeck-design.de)
