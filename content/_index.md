@@ -2,11 +2,7 @@
 title: Home
 date: 2018-07-06 18:19:54 +0000
 type: page
-seo_description: Beate Maria Bauer -  Ich begleite Menschen, Teams und Unternehmen,
-  die Zukunft neu und selbst gestalten möchten. Sehr gerne referiere hierzu gerne
-  über die Sinnhaftigkeit eines erfolgreichen Konfliktmanagements im gesamten ostbayerischen
-  Raum. Ich unterrichte Tanz im ostbayerischen Raum (Landshut, Regensburg, Passau,
-  Kelheim, Ingolstadt). Meditation des Tanzes, Training und Mediation
+seo_description: Lippacher Hof
 teaser_oben:
   bild: "/uploads/2018/08/11/053cut.jpg"
   logo: "/uploads/2018/08/11/logo.png"
@@ -20,6 +16,7 @@ intro:
   link_bescchriftung: ''
   link: uber-mich.md
   link_beschriftung: Mehr lesen
+  hintergrunnd: ''
 mediation_und_training:
   titel: Mediation & Training
   content: "<p>Wieder in die Gegenwart finden, sich neuen Impulsen hingeben, sich
@@ -71,6 +68,18 @@ kontakt:
   - icon: envelope outline
     content: <p><a href="mailto:bmb@beatemariabauer.de" title="">bmb@beatemariabauer.de</a></p>
   titel: Kontakt
+  content: ''
+  karte_bild: ''
+  karte: ''
+  button_beschriftung: ''
+  button_link: ''
+slides: []
+seitentitel: ''
+appartments:
+  titel: ''
+  liste: []
+  beschriftung_link_alle: ''
+  link_alle: ''
 menu:
   main:
     weight: 1
