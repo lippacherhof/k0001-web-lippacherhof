@@ -1,6 +1,12 @@
 +++
+bescchreibung = ""
+bilder = []
 date = "2018-09-22T09:29:18+00:00"
 draft = true
+headerbild = "/uploads/2018/09/22/header_Appartments.jpg"
+link = ""
+linkbescchriftung = ""
+preis = ""
 title = "Appartments Kategorie 5"
 [weitere_kategorien]
 hintergrund = "/uploads/2018/09/22/hintergrundbild_weitereapartments.jpg"
@@ -29,4 +35,5 @@ bild = "/uploads/2018/09/22/Kategorie5_0267.jpeg"
 link = "Appartments-Kategorie-5.md"
 linkbeschriftung = "weiter"
 titel = "Kategorie 5"
+
 +++
