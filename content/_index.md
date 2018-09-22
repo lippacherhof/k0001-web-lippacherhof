@@ -76,7 +76,7 @@ kontakt:
     30 km entfernt.</p><ul><li><p>Lippacher Hof<br>Oberlippach 1<br>84095 Furth</p></li><li><p>Tel.
     +49 (0)8704-928202<br>Fax +49 (0)8704-928203<br><a href="mailto:info@lippacherhof.de"
     title="">info@lippacherhof.de</a></p></li></ul>
-  karte_bild: ''
+  karte_bild: "/uploads/2018/09/22/lph_k.jpeg"
   karte: ''
   button_beschriftung: ''
   button_link: ''
