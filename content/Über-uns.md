@@ -1,6 +1,13 @@
 +++
+bild_rechts = "/uploads/2018/09/22/FamilieHintermaier.jpeg"
+content_links = "<p>Willkommen im </p><h2>Lippacher Hof</h2><p>Der Lippacher Hof existiert seit 2004 - Aus dem ehemaligen Bauernhof ist ein kleines Juwel inmitten der bayerischen Landschaft entstanden. Unsere Apartments sind mit viel Liebe zum Detail eingreichtet und auf dem modernsten Stand.  </p><p>Ankommen, Wohlfühlen und herzlich willkommen sein - </p><p>Wir freuen uns auf SIE!</p><p>Ihre </p><p>Familie Hintermaier</p>"
 date = "2018-09-22T09:29:35+00:00"
-draft = true
+headerbild = "/uploads/2018/09/22/head_about.jpg"
+motto = "<p>Tradition und Moderne sind bei uns kein Widerspruch sondern ergänzen sich - freuen Sie sich auf einen Aufenthalt in mitten unberührter Natur mit gehobenen Standard, der keine Wünsche offen lässt.</p>"
 title = "Über uns"
+[galerie]
+bilder = []
+hintergrund = ""
+titel = ""
 
 +++
