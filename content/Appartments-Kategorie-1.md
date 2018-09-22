@@ -2,7 +2,6 @@
 bescchreibung = "<p><strong>Kategorie 1</strong></p><p>Die Apartments der Kategorie 1 sind circa 20qm gross. </p><p>Bei langfristiger Belegung sind folgenden Leistungen inklusive:<br>Wöchentlicher Zimmerservice, WLAN, PKW Stellplatz, </p><p><strong>Ausstattung</strong></p><ul><li><p>Einzelbett</p></li><li><p>Küche mit Inventar</p></li><li><p>Esstisch, Fernseher, </p></li><li><p>Bad mit Dusche und WC</p></li></ul>"
 bilder = ["/uploads/2018/09/22/Kategorie1_0193.jpeg", "/uploads/2018/09/22/Kategorie1_0202.jpeg", "/uploads/2018/09/22/Kategorie1_0221.jpeg", "/uploads/2018/09/22/Kategorie1_0225.jpeg", "/uploads/2018/09/22/Kategorie1_0243.jpeg"]
 date = "2018-09-22T09:28:19+00:00"
-draft = true
 headerbild = "/uploads/2018/09/22/header_Appartments.jpg"
 link = ""
 linkbescchriftung = "Zimmer anfragen"
