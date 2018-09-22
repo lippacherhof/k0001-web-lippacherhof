@@ -1,6 +1,11 @@
 +++
+bescchreibung = "<p><strong>Kategorie 3 + 4</strong></p><p>Die Apartments der Kategorie 3 sind circa 35qm und die Apartments der Kategorie sind 38 qm gross. </p><p>Bei langfristiger Belegung sind folgenden Leistungen inklusive:<br>Wöchentlicher Zimmerservice, WLAN, PKW Stellplatz</p><p><strong>Ausstattung</strong></p><ul><li><p>Einzelbett (Kat 3) bzw. Doppelbett (Kat 4)</p></li><li><p>Küche mit Inventar</p></li><li><p>Esstisch</p></li><li><p>Fernsehsessel bzw. Couch</p></li><li><p>Fernseher</p></li><li><p>Bad mit Dusche und WC</p></li></ul>"
+bilder = []
 draft = true
 headerbild = "/uploads/2018/09/22/header_Appartments.jpg"
+link = ""
+linkbescchriftung = "Zimmer anfragen"
+preis = "Preis auf Anfrage"
 title = "Appartments Kategorie 3+4"
 [weitere_kategorien]
 hintergrund = "/uploads/2018/09/22/hintergrundbild_weitereapartments.jpg"
