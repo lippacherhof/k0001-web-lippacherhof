@@ -7,9 +7,6 @@ fields:
   name: slides
   label: Slides
 - type: text
-  name: seo_description
-  label: SEO Description
-- type: text
   name: seitentitel
   label: Seitentitel
 - type: field_group
@@ -69,5 +66,38 @@ fields:
         type: pages
         section: pages
     label: Link Alle
+- type: field_group
+  name: kontakt
+  label: Kontakt
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: textarea
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: karte_bild
+    label: Karte Bild
+  - type: textarea
+    name: karte
+    label: karte
+  - type: text
+    name: button_beschriftung
+    label: Button Beschriftung
+  - type: select
+    name: button_link
+    config:
+      source:
+        type: pages
+        section: pages
+    label: Button Link
+- type: text
+  name: seo_description
+  label: SEO Description
 pages:
 - content/_index.md
