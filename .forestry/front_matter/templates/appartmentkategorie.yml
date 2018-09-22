@@ -1,0 +1,41 @@
+---
+label: Appartmentkategorie
+hide_body: true
+is_partial: false
+fields:
+- type: file
+  name: headerbild
+  label: Headerbild
+- type: image_gallery
+  name: bilder
+  label: Bilder
+- type: textarea
+  name: bescchreibung
+  label: Bescchreibung
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: preis
+  label: Preis
+- type: text
+  name: linkbescchriftung
+  label: Linkbescchriftung
+- type: select
+  name: link
+  config:
+    source:
+      type: pages
+      section: pages
+  label: Link
+- type: field_group
+  label: Weitere Kategorien
+  name: weitere_kategorien
+  fields:
+  - type: text
+    name: titel
+    label: Titel
+  - type: file
+    name: hintergrund
+    label: Hintergrund
