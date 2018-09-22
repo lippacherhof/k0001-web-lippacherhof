@@ -27,11 +27,8 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
-  - type: text
-    name: buttonbeschriftung
-    label: Buttonbeschriftung
-  - type: textarea
-    name: karte
-    label: Karte
+- type: text
+  name: buttonbeschriftung
+  label: Buttonbeschriftung
 pages:
 - content/Lage-&-Kontakt.html
