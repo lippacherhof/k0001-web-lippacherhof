@@ -14,7 +14,7 @@ intro:
     wollen, bei uns sind Sie richtig. In Oberlippach hat man nicht nur den schönen
     Golfplatz vor der Haustür, auch Städtereisende und Radfahrer kommen in unserer
     Region und darüber hinaus nicht zu kurz.</p>"
-  hintergrund: "/uploads/2018/08/13/strand.jpg"
+  hintergrund: "/uploads/2018/09/22/slide4.jpg"
   link_bescchriftung: ''
   link: uber-mich.md
   link_beschriftung: Mehr lesen
@@ -83,10 +83,25 @@ slides:
 - "/uploads/2018/09/22/slide5.jpg"
 seitentitel: Lippacher Hof
 appartments:
-  titel: ''
-  liste: []
-  beschriftung_link_alle: ''
-  link_alle: ''
+  titel: Appartments
+  liste:
+  - kurzbeschreibung: "<p>20 qm, Ausstattung: Einzelbett, Küche, Esstisch, Fernseher,
+      Bad mit Dusche und WC</p>"
+    bild: "/uploads/2018/09/22/appartment1.jpeg"
+    link: impressum.md
+    bezeichnung: Kategorie 1
+  - kurzbeschreibung: "<p>30 – 34 qm, Doppelbett, Küche, gemütlicher Fernsehsessel,
+      Fernseher, Bad mit Dusche und WC</p>"
+    bild: "/uploads/2018/09/22/appartment2.jpg"
+    link: impressum.md
+    bezeichnung: Kategorie 2
+  - bezeichnung: Kategorie 3+4
+    kurzbeschreibung: "<p>35 - 38 qm, Einzelbett bzw. Doppelbett, Küche, Esstisch,
+      Fernsehsessel bzw Couch, Fernseher, Bad...</p>"
+    bild: "/uploads/2018/09/22/appartement3.jpeg"
+    link: impressum.md
+  beschriftung_link_alle: Alle Appartments ansehen
+  link_alle: impressum.md
 menu:
   main:
     weight: 1
