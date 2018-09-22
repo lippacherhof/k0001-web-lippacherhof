@@ -33,3 +33,5 @@ fields:
   - type: textarea
     name: karte
     label: Karte
+pages:
+- content/Lage-&-Kontakt.html
