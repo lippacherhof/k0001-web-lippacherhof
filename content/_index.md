@@ -69,8 +69,13 @@ kontakt:
     content: "<p>0 159 06 04 96 92</p>"
   - icon: envelope outline
     content: <p><a href="mailto:bmb@beatemariabauer.de" title="">bmb@beatemariabauer.de</a></p>
-  titel: Kontakt
-  content: ''
+  titel: Lage & Kontakt
+  content: <p>Ruhig  und mitten im Grünen sind unsere Apartments gelegen. Dennoch
+    sind Sie in wenigen Minuten auf der A92 und B99. Unser Hof liegt 10 km nördlich
+    von Landshut - 60 km von München - Autobahnanschluß A92 - 5 km entfernt - A93
+    30 km entfernt.</p><ul><li><p>Lippacher Hof<br>Oberlippach 1<br>84095 Furth</p></li><li><p>Tel.
+    +49 (0)8704-928202<br>Fax +49 (0)8704-928203<br><a href="mailto:info@lippacherhof.de"
+    title="">info@lippacherhof.de</a></p></li></ul>
   karte_bild: ''
   karte: ''
   button_beschriftung: ''
