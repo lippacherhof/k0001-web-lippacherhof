@@ -1,6 +1,11 @@
 +++
+bescchreibung = "<p><strong>Kategorie 2</strong></p><p>Die Apartments der Kategorie 2 sind circa 30 – 34 qm gross. </p><p>Bei langfristiger Belegung sind folgenden Leistungen inklusive:<br>Wöchentlicher Zimmerservice, WLAN, PKW Stellplatz</p><p><strong>Ausstattung</strong></p><ul><li><p>Doppelbett</p></li><li><p>Küche mit Inventar Esstisch</p></li><li><p>gemütlicher Fernsehsessel</p></li><li><p>Fernseher</p></li><li><p>Bad mit Dusche und WC</p></li></ul>"
+bilder = []
 date = "2018-09-22T09:28:46+00:00"
-draft = true
+headerbild = ""
+link = ""
+linkbescchriftung = "Zimmer anfragen"
+preis = "Preis auf Anfrage"
 title = "Appartments Kategorie 2"
 [weitere_kategorien]
 hintergrund = "/uploads/2018/09/22/hintergrundbild_weitereapartments.jpg"
@@ -11,12 +16,6 @@ bild = "/uploads/2018/09/22/appartment1.jpeg"
 link = "Appartments-Kategorie-1.md"
 linkbeschriftung = "weiterr"
 titel = "Kategorie 1"
-[[weitere_kategorien.kategorien]]
-beschreibung = "<p>30 – 34 qm, Doppelbett, Küche, gemütlicher Fernsehsessel, Fernseher, Bad mit Dusche und WC</p>"
-bild = "/uploads/2018/09/22/Kategorie1_0202.jpeg"
-link = "Appartments-Kategorie-2.md"
-linkbeschriftung = "weiter"
-titel = "Kategorie 2"
 [[weitere_kategorien.kategorien]]
 beschreibung = "<p>35 - 38 qm, Einzelbett bzw. Doppelbett, Küche, Esstisch, Fernsehsessel bzw Couch, Fernseher, Bad...</p>"
 bild = "/uploads/2018/09/22/appartement3.jpeg"
@@ -29,4 +28,5 @@ bild = "/uploads/2018/09/22/Kategorie5_0267.jpeg"
 link = "Appartments-Kategorie-5.md"
 linkbeschriftung = "weiter"
 titel = "Kategorie 5"
+
 +++
