@@ -1,71 +1,39 @@
 {{ define "main" }}
 <div id="home">
-  <div class="ui container fluid" style="background:#f6f6f6">
-    <div class="ui container" id="teaser_oben" style="background:url({{partial "imgUrl" (dict "img" .Params.teaser_oben.bild "params" "c_scale,f_auto,h_800" )}}) left bottom no-repeat #f6f6f6; background-size:contain">
-      <img src="{{partial "imgUrl" (dict "img" .Params.teaser_oben.logo "params" "f_auto,c_scale,h_500" )}} " />
-    </div>
-  </div>
-  <div id="intro" class="ui container fluid" style="background:url({{partial "imgUrl" (dict "img" .Params.intro.hintergrund "params" "c_scale,f_auto,h_800" )}}) center center no-repeat; background-size:cover">
-    <div class="ui container">
-      <div class="ui grid stackable">
-        <div class="ui twelve wide column">
-          {{.Params.intro.content | safeHTML}}
-        </div>
-        <div class="ui four wide column linkbuttoncol">
-          <a class="lbutton" href="{{ relref . .Params.intro.link }}">
-            {{.Params.intro.link_beschriftung}}
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="services" class="ui container">
-    <h1>{{.Params.mediation_und_training.titel}}</h1>
-    <div class="ccont">
-      {{.Params.mediation_und_training.content | safeHTML}}
-    </div>
-    <div class="ui three column grid stackable doubling">
-      {{ range .Params.mediation_und_training.bereiche }}
-      <div class="ui column sber">
-        <div class="ui shape">
-          <div class="sides">
-            <div class="active side">
-              <div class="inner {{.hintergrundfarbe}}">
-                {{with .icon}}
-                <img src="{{partial "imgUrl" (dict "img" . "params" "f_auto" )}} " /> {{end}} {{.content | safeHTML}}
-              </div>
-            </div>
-            <div class="side back">
-              <div class="inner {{.hintergrundfarbe_ruckseite}}">
-                {{with .icon_ruckseite}}
-                <img src="{{partial "imgUrl" (dict "img" . "params" "f_auto" )}} " /> {{end}} {{.content_ruckseite | safeHTML}}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {{ end}}
-    </div>
-  </div>
-  <div id="kontakt" class="ui container fluid" style="background:url({{partial "imgUrl" (dict "img" .Params.kontakt.hintergrundbild "params" "c_scale,f_auto,h_800" )}}) center center no-repeat; background-size:cover">
-    <h2>{{.Params.kontakt.titel}}</h2>
-    <div class="ui container">
-      <div class="ui two column grid stackable">
-        <div class="ui column">
-          {{partial "kontform"}}
-        </div>
-        <div class="ui column">
-          <ul class="kdata">
-            {{ range .Params.kontakt.kontaktdaten }}
-            <li>
-              <i class="{{.icon}} icon"></i>
-              <div>{{.content | safeHTML}}</div>
-            </li>
-            {{end}}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  <ul id="slider">
+    {{ range $x,$img := .Params.slides }}
+    <li>
+      <img src="{{partial "imgUrl" (dict "img" . "params" "f_auto" )}} " />
+    </li>
+    {{end}}
+  </ul>
 </div>
+<script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/slippry.min.js"></script>
+<link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/slippry.min.css">
+<script type="text/javascript">
+  $(function () {
+    $('#slider').slippry({
+      // general elements & wrapper
+      slippryWrapper: '<div class="sy-box topslider" />', // wrapper to wrap everything, including pager
+      elements: 'li', // elments cointaining slide content
+
+      // options
+      adaptiveHeight: false, // height of the sliders adapts to current 
+      captions: false,
+      loop: true,
+      // pager
+      pager: false,
+      start: 2,
+      // transitions
+      slideMargin: 0, // spacing between slides (in %)
+      useCSS: true,
+      transition: 'horizontal',
+      pause: 3000,
+      speed: 650,
+      // slideshow
+      autoDirection: 'next'
+    });
+    $('.ui.embed').embed();
+  });
+</script>
 {{ end }}
