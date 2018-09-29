@@ -24,6 +24,7 @@ kontakt:
   karte: https://www.openstreetmap.org/export/embed.html?bbox=11.7059326171875%2C48.39228191752019%2C12.447509765625002%2C48.79827046389008&amp;layer=mapnik&amp;marker=48.59568400838307%2C12.07672119140625
   button_beschriftung: Anfragen
   button_link: impressum.md
+  titel: ''
 slides:
 - "/uploads/2018/09/22/slide1.jpg"
 - "/uploads/2018/09/22/slide2.jpg"
@@ -37,18 +38,18 @@ appartments:
   - kurzbeschreibung: "<p>20 qm, Ausstattung: Einzelbett, Küche, Esstisch, Fernseher,
       Bad mit Dusche und WC</p>"
     bild: "/uploads/2018/09/22/appartment1.jpeg"
-    link: impressum.md
+    link: Appartments-Kategorie-1.md
     bezeichnung: Kategorie 1
   - kurzbeschreibung: "<p>30 – 34 qm, Doppelbett, Küche, gemütlicher Fernsehsessel,
       Fernseher, Bad mit Dusche und WC</p>"
     bild: "/uploads/2018/09/22/appartment2.jpg"
-    link: impressum.md
+    link: Appartments-Kategorie-2.md
     bezeichnung: Kategorie 2
   - bezeichnung: Kategorie 3+4
     kurzbeschreibung: "<p>35 - 38 qm, Einzelbett bzw. Doppelbett, Küche, Esstisch,
       Fernsehsessel bzw Couch, Fernseher, Bad...</p>"
     bild: "/uploads/2018/09/22/appartement3.jpeg"
-    link: impressum.md
+    link: Appartments-Kategorie-3_4.md
   beschriftung_link_alle: Alle Appartments ansehen
   link_alle: impressum.md
 
