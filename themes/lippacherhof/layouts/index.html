@@ -2,11 +2,46 @@
 <div id="home">
   <ul id="slider">
     {{ range $x,$img := .Params.slides }}
-    <li>
-      <img src="{{partial "imgUrl" (dict "img" . "params" "f_auto" )}} " />
+    <li style="height:60vh; background:url({{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat;background-size:cover;">
     </li>
     {{end}}
   </ul>
+  <div class="ui container">
+    <h1>{{.Params.seitentitel}}</h1>
+  </div>
+  <div id="intro" style="background:url({{partial "imgUrl" (dict "img" .Params.intro.hintergrund "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat;background-size:cover;">
+    <div class="ui container">
+      <div id="ics">
+        <div class="lic"></div>
+        <div class="lic"></div>
+        <div class="lic"></div>
+        <div class="lic"></div>
+      </div>
+      <div id="intro_content">
+        {{.Params.intro.content|safeHTML}}
+      </div>
+    </div>
+  </div>
+  <div id="app" class="ui container">
+    <h2>{{.Params.appartments.titel}}</h2>
+    <div class="ui three column stackable grid">
+      {{$p:=.}}
+      {{range .Params.appartments.liste}}
+      <div class="ui column appcol">
+        <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_400" )}}" />
+        <div class="info">
+          <h4>{{.bezeichnung}}</h4>
+          {{.kurzbeschreibung | safeHTML}}
+          <div class="bwrap">
+            <a class="appbutton" href="{{relref $p .link }}">
+              weiter
+            </a>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
 </div>
 <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/slippry.min.js"></script>
 <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/slippry.min.css">
@@ -16,14 +51,13 @@
       // general elements & wrapper
       slippryWrapper: '<div class="sy-box topslider" />', // wrapper to wrap everything, including pager
       elements: 'li', // elments cointaining slide content
-
       // options
       adaptiveHeight: false, // height of the sliders adapts to current 
       captions: false,
       loop: true,
       // pager
       pager: false,
-      start: 2,
+      start: 1,
       // transitions
       slideMargin: 0, // spacing between slides (in %)
       useCSS: true,

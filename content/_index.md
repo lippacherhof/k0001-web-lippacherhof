@@ -12,8 +12,6 @@ intro:
     Golfplatz vor der Haustür, auch Städtereisende und Radfahrer kommen in unserer
     Region und darüber hinaus nicht zu kurz.</p>"
   hintergrund: "/uploads/2018/09/22/slide4.jpg"
-  link_bescchriftung: ''
-  link_beschriftung: Mehr lesen
 kontakt:
   hintergrundbild: "/uploads/2018/08/13/footer_pic.jpg"
   content: <p>Ruhig  und mitten im Grünen sind unsere Apartments gelegen. Dennoch
