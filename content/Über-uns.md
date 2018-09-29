@@ -10,6 +10,6 @@ bilder = ["/uploads/2018/09/22/aussen_Winter.JPG", "/uploads/2018/09/22/IMG_0249
 hintergrund = "/uploads/2018/09/22/hintergrundbild_galerie-1.jpg"
 titel = "Galerie"
 [menu.main]
-weight = 6
+weight = 5
 
 +++

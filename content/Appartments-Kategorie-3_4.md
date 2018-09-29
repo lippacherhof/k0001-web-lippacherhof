@@ -8,7 +8,7 @@ preis = "Preis auf Anfrage"
 title = "Appartments Kategorie 3+4"
 [menu.main]
 name = "Appartments 3+4"
-weight = 4
+weight = 3
 [weitere_kategorien]
 hintergrund = "/uploads/2018/09/22/hintergrundbild_weitereapartments.jpg"
 titel = "Das könnte Ihnen auch gefallen ..."

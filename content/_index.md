@@ -53,8 +53,5 @@ appartments:
     link: impressum.md
   beschriftung_link_alle: Alle Appartments ansehen
   link_alle: impressum.md
-menu:
-  main:
-    weight: 1
 
 ---
