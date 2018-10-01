@@ -28,18 +28,39 @@
       {{$p:=.}}
       {{range .Params.appartments.liste}}
       <div class="ui column appcol">
-        <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_400" )}}" />
+        <a href="{{relref $p .link }}">
+          <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_400" )}}" />
+        </a>
         <div class="info">
-          <h4>{{.bezeichnung}}</h4>
+          <a href="{{relref $p .link }}">
+            <h4>{{.bezeichnung}}</h4>
+          </a>
           {{.kurzbeschreibung | safeHTML}}
           <div class="bwrap">
             <a class="appbutton" href="{{relref $p .link }}">
+              <i class="angle right"></i>
               weiter
             </a>
           </div>
         </div>
       </div>
       {{end}}
+    </div>
+  </div>
+  <div class="ui container fluid kontakt">
+    <div class="ui two column stackable grid mobile reversed">
+      <div class="ui column map">
+        <div class="ui 4:3 embed" data-url="{{.Params.kontakt.karte}}" data-placeholder="{{partial "imgUrl" (dict "img" .Params.kontakt.karte_bild "params" "c_scale,f_auto,w_1000" )}}"
+          data-icon="zoom in">
+        </div>
+      </div>
+      <div class="ui column content">
+        <h2>{{.Params.kontakt.titel}}</h2>
+        <div class="kcontent">
+          {{.Params.kontakt.content | safeHTML}}
+          <a href="{{relref $p .Params.kontakt.button_link }}" class="anfbutton">{{.Params.kontakt.button_beschriftung}}</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
