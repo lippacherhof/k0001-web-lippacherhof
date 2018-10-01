@@ -24,7 +24,7 @@ kontakt:
   karte: https://www.openstreetmap.org/export/embed.html?bbox=11.7059326171875%2C48.39228191752019%2C12.447509765625002%2C48.79827046389008&amp;layer=mapnik&amp;marker=48.59568400838307%2C12.07672119140625
   button_beschriftung: Anfragen
   button_link: impressum.md
-  titel: ''
+  titel: Lage & Kontakt
 slides:
 - "/uploads/2018/09/22/slide1.jpg"
 - "/uploads/2018/09/22/slide2.jpg"
