@@ -1,7 +1,8 @@
 +++
 date = "2018-09-22T12:30:35+02:00"
 headerbild = "/uploads/2018/09/22/Head_umgebung.jpg"
-intro = "<p>Der Lippacher Hof liegt circa 6 km östlich von Furth - Natur pur!<br>In Alleinlage auf einer Anhöhe liegt unser wunderschönes Anwensen - mit Blick über Wälder und Wiesen. Genau der richtige Ort um zu Entspannen und zur Ruhe zu kommen. Die wunderschöne Landschaft und kulturelle Ziele wie Landshut, Regensburg und München versprechen Abwechslung und Aktiverholung. Sportbegeisterte kommen bei Golf, Fahrradtouren und Spaziergängen nicht zu kurz!</p>"
+layout = "umgebung"
+intro = "<p>Der Lippacher Hof liegt circa 6 km östlich von Furth - Natur pur!<br>In Alleinlage auf einer Anhöhe liegt unser wunderschönes Anwesen - mit Blick über Wälder und Wiesen. Genau der richtige Ort um zu Entspannen und zur Ruhe zu kommen. Die wunderschöne Landschaft und kulturelle Ziele wie Landshut, Regensburg und München versprechen Abwechslung und Aktiverholung. Sportbegeisterte kommen bei Golf, Fahrradtouren und Spaziergängen nicht zu kurz!</p>"
 title = "Die Umgebung"
 [menu.main]
 name = "Umgebung"

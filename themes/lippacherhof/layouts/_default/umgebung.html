@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{$p:=.}}
+<div class="sub umg">
+  <div style="height:40vh; background:url({{partial "imgUrl" (dict "img" .Params.headerbild "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat;background-size:cover;"></div>
+  <div class="titlewrap ui fluid container">
+    <div class="container">
+      <h1>{{.Title}}</h1>
+    </div>
+  </div>
+  <div class="ui container intro">
+    {{.Params.intro | safeHTML}}
+  </div>
+  {{range $idx,$elem := .Params.abschnitte}}
+  <!-- -->
+  {{ if modBool $idx 2 }}
+  <div class="ui stackable two column grid">
+    <div class="ui column" style="min-height:30vh; background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_1000" )}}) center center no-repeat;background-size:cover;"></div>
+    <div class="ui column content">
+      <h2>{{.titel}}</h2>
+      {{.content | safeHTML}}
+    </div>
+  </div>
+  {{else}}
+    <div class="ui stackable two column grid">
+      <div class="ui column content">
+        <h2>{{.titel}}</h2>
+        {{.content | safeHTML}}
+      </div>
+      <div class="ui column" style="min-height:30vh; background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_1000" )}}) center center no-repeat;background-size:cover;"></div>
+    </div>
+    {{end}}
+    {{end}}
+</div> {{end}}
