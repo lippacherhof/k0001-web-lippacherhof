@@ -3,9 +3,10 @@ bescchreibung = "<p><strong>Kategorie 5</strong></p><p>Die Apartments der Katego
 bilder = ["/uploads/2018/09/22/Kategorie5_Skizze.jpg", "/uploads/2018/09/22/Kategorie5_Kueche.jpg", "/uploads/2018/09/22/Kategorie5_0289.jpeg", "/uploads/2018/09/22/Kategorie5_0326.jpeg", "/uploads/2018/09/22/Kategorie5_0267-1.jpeg", "/uploads/2018/09/22/Kategorie5_0302.jpeg", "/uploads/2018/09/22/Kategorie5_0327.jpeg", "/uploads/2018/09/22/Kategorie5_0275.jpeg"]
 date = "2018-09-22T09:29:18+00:00"
 headerbild = "/uploads/2018/09/22/header_Appartments.jpg"
-link = ""
+link = "Lage-&-Kontakt.html"
 linkbescchriftung = "Zimmer anfragen"
 preis = "Preis auf Anfrage"
+seo_description = ""
 title = "Appartments Kategorie 5"
 [menu.main]
 name = "Appartments 5"

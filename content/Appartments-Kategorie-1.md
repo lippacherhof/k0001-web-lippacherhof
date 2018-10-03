@@ -4,9 +4,10 @@ bilder = ["/uploads/2018/09/22/Kategorie1_0193.jpeg", "/uploads/2018/09/22/Kateg
 date = "2018-09-22T09:28:19+00:00"
 layout="cat"
 headerbild = "/uploads/2018/09/22/header_Appartments.jpg"
-link = ""
+link = "Lage-&-Kontakt.html"
 linkbescchriftung = "Zimmer anfragen"
 preis = "Preis auf Anfrage"
+seo_description = ""
 title = "Appartments Kategorie 1"
 [menu.main]
 name = "Appartments 1"

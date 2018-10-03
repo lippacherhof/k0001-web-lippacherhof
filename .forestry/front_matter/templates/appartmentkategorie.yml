@@ -70,7 +70,7 @@ fields:
   name: seo_description
   label: SEO Description
 pages:
-- content/Appartments-Kategorie-5.md
 - content/Appartments-Kategorie-3_4.md
 - content/Appartments-Kategorie-1.md
+- content/Appartments-Kategorie-5.md
 - content/Appartments-Kategorie-2.md
