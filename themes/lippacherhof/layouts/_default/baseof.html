@@ -24,6 +24,8 @@
   {{ partial "footer.html" . }}
 
   <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/semantic.min.js"></script>
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/slippry.min.js"></script>
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/slippry.min.css">
   <script type="text/javascript">
     $(function () {
       $(window).scroll(function () {
@@ -52,38 +54,32 @@
           $('#mobilemenutoggle i').removeClass('bars');
         }
       });
-      $('#kform')
-        .form({
-          fields: {
-            name: {
-              identifier: 'name',
-              rules: [
-                {
-                  type: 'empty',
-                  prompt: 'Bitte geben Sie Ihren Namen an'
-                }
-              ]
-            },
-            email: {
-              identifier: 'email',
-              rules: [
-                {
-                  type: 'email',
-                  prompt: 'Bitte geben Sie eine gültige Emailadresse an.'
-                }
-              ]
-            },
-            message: {
-              identifier: 'message',
-              rules: [
-                {
-                  type: 'minLength[5]',
-                  prompt: 'Bitte geben Sie eine Nachricht an.'
-                }
-              ]
-            }
-          }
+      $('.imggal img').click(function (el) {
+        var mid = el.currentTarget.dataset.modal;
+        var idx = el.currentTarget.dataset.idx;
+        $('#modal_' + mid).modal({ inverted: true }).modal('show');
+        $('#gal_' + mid).slippry({
+          // general elements & wrapper
+          slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+          // options
+          adaptiveHeight: true, // height of the sliders adapts to current slide
+          start: idx + 1, // num (starting from 1), random
+          loop: true, // first -> last & last -> first arrows
+          captionsSrc: 'li',
+          captions: 'custom', // Position: overlay, below, custom, false
+          captionsEl: '.external-captions',
+
+          // transitions
+          transition: 'fade', // fade, horizontal, kenburns, false
+          easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+          continuous: true,
+
+          // slideshow
+          auto: true,
+          pager: false,
         });
+      });
     });
   </script>
 </body>
