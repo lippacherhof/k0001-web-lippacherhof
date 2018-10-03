@@ -358,6 +358,15 @@ footer .footermenu a:last-child:after {
   font-size: 8rem;
   margin: 0!important;
 }
+.sub.cat .othercats {
+  padding: 3rem 0;
+}
+.sub.cat h2 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  margin: 0 0 2rem 0!important;
+  text-align: left!important;
+  font-size: 1.8rem;
+}
 .sub.cat .content {
   color: #1f5d1b;
   position: relative;
@@ -383,6 +392,19 @@ footer .footermenu a:last-child:after {
   width: 100%;
   margin-top: 2rem;
   text-align: center;
+}
+.sub.cat .content .pbox {
+  clear: both;
+  float: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.sub.cat .content .pbox .price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 .imggal img {
   cursor: pointer;

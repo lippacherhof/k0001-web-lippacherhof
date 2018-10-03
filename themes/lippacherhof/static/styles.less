@@ -358,6 +358,15 @@ footer{
     }
   }
   &.cat{
+    .othercats{
+      padding:3rem 0;
+    }
+    h2{
+      font-family: Arial, Helvetica, sans-serif !important;
+      margin:0 0 2rem 0!important;
+      text-align:left!important;
+      font-size:1.8rem;
+    }
     .content{
       color:@green;
       position:relative;
@@ -382,6 +391,19 @@ footer{
         width:100%;
         margin-top:2rem;
         text-align:center;
+      }
+      .pbox{
+        clear:both;
+        float:none;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        .price{
+          font-weight:bold;
+          font-size:1.2rem;
+          text-transform:uppercase;
+        }
       }
     }
   }

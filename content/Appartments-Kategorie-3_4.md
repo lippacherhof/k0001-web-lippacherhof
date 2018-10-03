@@ -4,6 +4,7 @@ bilder = ["/uploads/2018/09/22/Kategorie3_4_0243.jpeg", "/uploads/2018/09/22/Kat
 headerbild = "/uploads/2018/09/22/header_Appartments.jpg"
 link = "Lage-&-Kontakt.html"
 linkbescchriftung = "Zimmer anfragen"
+layout="cat"
 preis = "Preis auf Anfrage"
 seo_description = ""
 title = "Appartments Kategorie 3+4"

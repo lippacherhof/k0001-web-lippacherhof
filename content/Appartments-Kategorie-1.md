@@ -24,7 +24,7 @@ titel = "Kategorie 2"
 [[weitere_kategorien.kategorien]]
 beschreibung = "<p>35 - 38 qm, Einzelbett bzw. Doppelbett, Küche, Esstisch, Fernsehsessel bzw Couch, Fernseher, Bad...</p>"
 bild = "/uploads/2018/09/22/appartement3.jpeg"
-link = "Appartments-Kategorie-3+4.md"
+link = "Appartments-Kategorie-3_4.md"
 linkbeschriftung = "weiter"
 titel = "Kategorie 3+4"
 [[weitere_kategorien.kategorien]]
