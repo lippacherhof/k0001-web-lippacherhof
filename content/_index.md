@@ -11,7 +11,7 @@ intro:
     wollen, bei uns sind Sie richtig. In Oberlippach hat man nicht nur den schönen
     Golfplatz vor der Haustür, auch Städtereisende und Radfahrer kommen in unserer
     Region und darüber hinaus nicht zu kurz.</p>"
-  hintergrund: "/uploads/2018/09/22/slide4.jpg"
+  hintergrund: "/uploads/2018/09/22/hintergrundbild_galerie.jpg"
 kontakt:
   hintergrundbild: "/uploads/2018/08/13/footer_pic.jpg"
   content: <p>Ruhig  und mitten im Grünen sind unsere Apartments gelegen. Dennoch
