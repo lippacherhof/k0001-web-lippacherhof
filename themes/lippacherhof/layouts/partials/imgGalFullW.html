@@ -1,0 +1,20 @@
+<div class="imggal">
+  <div class="ui four column doubling stackable grid">
+    {{ range $x,$img := . }}
+    <div class="ui column">
+      <img data-modal="imgg" data-idx="{{$x}}" class="simgf" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,f_auto/c_scale,w_768" )}}" />
+    </div>
+    {{end}}
+  </div>
+</div>
+<div class="ui modal small" id="modal_imgg">
+  <div class="content">
+    <ul id="gal_imgg" class="imggalslider sy-slides-crop">
+      {{ range $x,$img := . }}
+      <li>
+        <img src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,h_500,f_auto" )}} " />
+      </li>
+      {{end}}
+    </ul>
+  </div>
+</div>

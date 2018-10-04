@@ -1,37 +1,33 @@
 {{ define "main" }}
-<div id="about">
-  <div class="ui container fluid" style="background:#f6f6f6">
-    <div class="ui container" id="oben">
-      <div class="ui two column grid stackable">
-        <div class="ui column imgcol" style="background:url({{partial "imgUrl" (dict "img" .Params.bild_links "params" "c_scale,f_auto,h_800" )}}) right top no-repeat #f6f6f6; background-size:cover"></div>
-        <div class="ui column">
-          <h1>{{.Title}}</h1>
-          <div class="content_rechts">
-            {{.Params.content_rechts | safeHTML}}
-          </div>
-        </div>
-      </div>
+{{$p:=.}}
+<div class="sub about">
+  <div style="height:40vh; background:url({{partial "imgUrl" (dict "img" .Params.headerbild "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat;background-size:cover;"></div>
+  <div class="titlewrap ui fluid container">
+    <div class="container">
+      <h1>{{.Title}}</h1>
     </div>
   </div>
-  <div class="ui container fluid" style="background:url({{partial "imgUrl" (dict "img" .Params.zitat.hintergrundbild "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat #f6f6f6; background-size:cover">
-    <div class="ui container" id="zitat">
-      <blockquote>
-        {{.Params.zitat.content | safeHTML}}
-      </blockquote>
-      <div class="quelle">
-        {{.Params.zitat.quelle | safeHTML}}
-      </div>
-    </div>
-  </div>
-  <div class="ui container subbereiche">
+  <div class="ui container mcontent">
     <div class="ui two column stackable grid">
-      {{ range .Params.bereiche }}
-      <div class="ui column">
-        <h2>{{.titel}}</h2>
-        {{.content | safeHTML}}
+      <div class="ui column cont">
+        {{.Params.content_links|safeHTML}}
       </div>
-      {{end}}
+      <div class="ui column img">
+        <div class="deco">
+        </div>
+        <img src="{{partial "imgUrl" (dict "img" .Params.bild_rechts "params" "c_scale,f_auto,w_600" )}}" />
+      </div>
     </div>
   </div>
-</div>
-{{end}}
+  <div class="ui container fluid motto">
+    <div class="ui container">
+      {{.Params.motto|safeHTML}}
+    </div>
+  </div>
+  <div class="ui container fluid gal" style="background:url({{partial "imgUrl" (dict "img" .Params.galerie.hintergrund "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat;background-size:cover;">
+    <div class="ui container">
+      <h2>{{.Params.galerie.titel}}</h2>
+      {{partial "imgGalFullW.html" .Params.galerie.bilder}}
+    </div>
+  </div>
+</div> {{end}}

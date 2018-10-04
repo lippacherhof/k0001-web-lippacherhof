@@ -1,27 +1,32 @@
 {{ define "main" }}
-<div class="sub kontakt">
-  <div class="ui container fluid" style="background:url({{partial "imgUrl" (dict "img" .Params.hintergrund "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat #f6f6f6; background-size:cover">
-    <div class="ui two column stackable grid mobile reversed">
-      <div class="ui column map">
-        <div class="ui 4:3 embed" data-url="{{.Params.karte}}" data-icon="zoom in">
-        </div>
-      </div>
-      <div class="ui column content" id="cont">
-        <h1>{{.Title}}</h1>
-        <ul class="kdata">
-          {{ range .Params.kontaktdaten }}
-          <li>
-            <i class="{{.icon}} icon"></i>
-            <div>{{.content | safeHTML}}</div>
-          </li>
-          {{end}}
-        </ul>
-        <div class="txt">
-          {{.Params.content | safeHTML}}
-        </div>
-        {{partial "kontform"}}
-      </div>
+{{$p:=.}}
+<div class="sub kont">
+  <div style="height:40vh; background:url({{partial "imgUrl" (dict "img" .Params.headerbild "params" "c_scale,f_auto,w_2000" )}}) center center no-repeat;background-size:cover;"></div>
+  <div class="titlewrap ui fluid container">
+    <div class="container">
+      <h1>{{.Title}}</h1>
     </div>
   </div>
-</div>
-{{end}}
+  <div class="ui container intro">
+    {{.Params.intro|safeHTML}}
+  </div>
+  <div class="ui container kdat">
+    <div class="ui three column doubling stackable grid">
+      {{range .Params.kontaktdaten}}
+      <div class="ui column">
+        <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_40" )}}" />
+        <div>
+          {{.text|safeHTML}}
+        </div>
+      </div>
+      {{end}}
+    </div>
+    <div class="buttonw">
+      <a class="anfbutton" href="mailto:info@lippacherhof.de?subject=Anfrage">{{.Params.buttonbeschriftung}}</a>
+    </div>
+  </div>
+  <div class="ui container fluid">
+    <div class="ui 16:9 embed" data-url="{{.Params.karte}}">
+    </div>
+  </div>
+</div> {{end}}
