@@ -2,9 +2,10 @@
 title: Home
 date: 2018-07-06 18:19:54 +0000
 type: page
-seo_description: 'Das Appartementhaus Lippacher Hof liegt verkehrsgünstig zur A92
-  Näge Landshut und doch in ruhiger Lage für Geschäftsreisende, Städtereisende, Familien
-  und Sportbegeisterte '
+seo_description: Das Appartementhaus Lippacher Hof liegt verkehrsgünstig zur A92 Näge
+  Landshut und doch in ruhiger Lage für Geschäftsreisende, Städtereisende, Familien
+  und Sportbegeisterte. Unser Hof liegt 10 km nördlich von Landshut - 60 km von München
+  - Autobahnanschluß A92 - 5 km entfernt - A93 30 km entfernt.
 intro:
   content: "<p>Herzlich Willkommen in Oberlippach</p><p><br>Das Appartementhaus Lippacher
     Hof hat sich in den letzten Jahren zu einem Stück Heimat für seine Gäste entwickelt.
