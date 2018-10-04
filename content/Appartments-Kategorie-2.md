@@ -7,7 +7,7 @@ layout = "cat"
 link = "Lage-&-Kontakt.md"
 linkbescchriftung = "Zimmer anfragen"
 preis = "Preis auf Anfrage"
-seo_description = ""
+seo_description = "Apartments mit Doppelbett, Küche mit Inventar, Esstisch, gemütlicher Fernsehsessel, Fernseher, Bad mit Dusche und WC"
 title = "Appartments Kategorie 2"
 [menu.main]
 name = "Appartments 2"
