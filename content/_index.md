@@ -4,7 +4,7 @@ date: 2018-07-06 18:19:54 +0000
 type: page
 seo_description: Lippacher Hof
 intro:
-  content: "<p>Herzlich Willkommen in Oberlippach<br>Das Appartementhaus Lippacher
+  content: "<p>Herzlich Willkommen in Oberlippach</p><p><br>Das Appartementhaus Lippacher
     Hof hat sich in den letzten Jahren zu einem Stück Heimat für seine Gäste entwickelt.
     Die Ruhe und das gepflegte Umfeld in mitten grüner Natur wissen unsere Gäste sehr
     zu schätzen. Ob Sie beruflich unterwegs sind oder nur ein paar Tage ausspannen
