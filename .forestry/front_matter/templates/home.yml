@@ -59,6 +59,7 @@ fields:
   - type: text
     name: beschriftung_link_alle
     label: Beschriftung Link Alle
+    default: weitere Appartments ansehen
   - type: select
     name: link_alle
     config:
@@ -66,6 +67,7 @@ fields:
         type: pages
         section: pages
     label: Link Alle
+    default: Appartments-Kategorie-5.md
 - type: field_group
   name: kontakt
   label: Kontakt
