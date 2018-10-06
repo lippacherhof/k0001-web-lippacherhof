@@ -53,7 +53,7 @@ appartments:
       Fernsehsessel bzw Couch, Fernseher, Bad...</p>"
     bild: "/uploads/2018/09/22/appartement3.jpeg"
     link: Appartments-Kategorie-3_4.md
-  beschriftung_link_alle: Alle Appartments ansehen
-  link_alle: impressum.md
+  beschriftung_link_alle: weitere Appartments ansehen
+  link_alle: Appartments-Kategorie-5.md
 
 ---
